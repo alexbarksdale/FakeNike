@@ -1,3 +1,64 @@
 // ########################
 // HEADER PROPERTIES
 // ########################
+header {
+    height: 100vh;
+}
+
+.header-content {
+    // margin-top: 900px;
+
+    img {
+        pointer-events: none;
+    }
+
+    h1 {
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 3em;
+
+        span {
+            font-size: 32px;
+        }
+    }
+
+    p {
+        font-size: 1.4em;
+
+        margin: auto;
+        width: 50%;
+    }
+}
+
+.header-extras-left {
+    h1 {
+        font-size: 1.4em;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding-left: 213px;
+        transform: rotate(270deg);
+        transform-origin: left top 0;
+    }
+}
+
+.vertical-line-left {
+    border-top: 3px solid $pure-black;
+    width: 210px;
+    margin: -492px 10px;
+    transform: rotate(270deg);
+    transform-origin: left top 0;
+}
+
+.header-extras-right {
+    h1 {
+        font-size: 1.4em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+}
+
+.vertical-line-right {
+    border-top: 3px solid $pure-black;
+    width: 110px;
+    margin: -26px -116px;
+}

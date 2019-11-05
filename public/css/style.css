@@ -3,44 +3,77 @@
   margin: 0;
   padding: 0;
   transition: all 0.3s ease 0s;
-  font-family: "Nunito", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.footer-container {
-  border-top: 1.5px solid #353535;
-}
+@media (max-width: 892px) {
+  .header-content p {
+    width: 70% !important;
+  }
 
-.footer-content {
-  padding: 35px;
+  .header-extras-left,
+.header-extras-right {
+    display: none;
+  }
 }
-
-.footer-links {
-  list-style: none;
-}
-
-.footer-item {
-  display: inline-block;
-  padding: 20px;
-}
-.footer-item a {
-  text-decoration: none;
-  color: #888888;
-}
-.footer-item a:hover {
-  color: #b7b7b7;
-}
-
-.copyright {
-  float: right;
-  color: #888888;
-}
-.copyright a {
-  float: right;
-  font-size: 20px;
-}
-
 .navbar-brand img {
   height: 40px;
+}
+
+.nav-link {
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+header {
+  height: 100vh;
+}
+
+.header-content img {
+  pointer-events: none;
+}
+.header-content h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 3em;
+}
+.header-content h1 span {
+  font-size: 32px;
+}
+.header-content p {
+  font-size: 1.4em;
+  margin: auto;
+  width: 50%;
+}
+
+.header-extras-left h1 {
+  font-size: 1.4em;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-left: 213px;
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+}
+
+.vertical-line-left {
+  border-top: 3px solid #000;
+  width: 210px;
+  margin: -492px 10px;
+  transform: rotate(270deg);
+  transform-origin: left top 0;
+}
+
+.header-extras-right h1 {
+  font-size: 1.4em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.vertical-line-right {
+  border-top: 3px solid #000;
+  width: 110px;
+  margin: -26px -116px;
 }
 
 /*# sourceMappingURL=style.css.map */
