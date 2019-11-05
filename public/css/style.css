@@ -2,8 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s !important;
   font-family: "Josefin Sans", sans-serif;
+}
+
+.space-r {
+  margin-right: 5rem !important;
 }
 
 @media (max-width: 892px) {
@@ -27,7 +31,7 @@
 }
 
 header {
-  height: 100vh;
+  height: 1000px;
 }
 
 .header-content img {
@@ -74,6 +78,109 @@ header {
   border-top: 3px solid #000;
   width: 110px;
   margin: -26px -116px;
+}
+
+.top-picks {
+  background: url("/img/our-picks.png");
+  padding: 50px;
+  min-height: 550px;
+}
+
+.category-txt {
+  color: #fff;
+  margin-top: 76px;
+}
+.category-txt h1 {
+  text-transform: uppercase;
+  font-size: 76px;
+  font-weight: 700;
+}
+
+.shoe-one {
+  margin-top: -95px !important;
+}
+.shoe-one:hover {
+  margin-top: -125px !important;
+}
+
+.shoe-one {
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+}
+
+.shoe-two {
+  background: linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+}
+
+.shoe-three {
+  background: linear-gradient(90deg, #fdbb2d 0%, #693db9 100%);
+}
+
+.shoe-two {
+  background-color: red;
+}
+
+.sub-shoe {
+  margin-top: 44px;
+}
+.sub-shoe:hover {
+  margin-top: 15px;
+}
+
+.shoe-content {
+  border-radius: 8px;
+  box-shadow: 0px 0px 46px 8px rgba(0, 0, 0, 0.3);
+}
+.shoe-content button {
+  float: right;
+}
+
+.shoe-title {
+  padding: 20px 20px 105px 20px;
+}
+.shoe-title h4 {
+  font-size: 15px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.shoe-title h2 {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.shoe-title h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #e8e8e8;
+}
+.shoe-title img {
+  height: 207px;
+  margin-top: -87px;
+}
+
+.btn-purchase {
+  color: #fff !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 52px;
+  background-color: #38445f !important;
+}
+.btn-purchase:hover {
+  background-color: #465473 !important;
+}
+
+.race-content {
+  margin-top: 50px;
+  border-radius: 8px;
+  padding: 460px 0px 30px 34px;
+  background-color: red;
+}
+.race-content h1 {
+  font-size: 4em;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */

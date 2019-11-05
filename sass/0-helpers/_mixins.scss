@@ -1,0 +1,13 @@
+@mixin shoe-card-text {
+    color: $pure-white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@mixin btn-purchase {
+    color: $pure-white !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
