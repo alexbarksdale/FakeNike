@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease 0s;
+  font-family: "Nunito", sans-serif;
+}
+
+.footer-container {
+  border-top: 1.5px solid #353535;
+}
+
+.footer-content {
+  padding: 35px;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-item {
+  display: inline-block;
+  padding: 20px;
+}
+.footer-item a {
+  text-decoration: none;
+  color: #888888;
+}
+.footer-item a:hover {
+  color: #b7b7b7;
+}
+
+.copyright {
+  float: right;
+  color: #888888;
+}
+.copyright a {
+  float: right;
+  font-size: 20px;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
