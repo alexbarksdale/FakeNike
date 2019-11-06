@@ -10,8 +10,8 @@ app.get('/', function(req, res) {
     res.render('pages/home.ejs');
 });
 
-app.get('/offwhite', function(req, res) {
-    res.render('pages/offwhite.ejs');
+app.get('/lebron', function(req, res) {
+    res.render('pages/lebron.ejs');
 });
 
 const PORT = process.env.PORT || 5000;

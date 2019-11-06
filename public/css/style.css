@@ -12,6 +12,14 @@
   margin-right: 5rem !important;
 }
 
+.featured {
+  margin: 50px;
+}
+
+.feat-header {
+  font-weight: 700;
+}
+
 @media (max-width: 1210px) {
   .non-responsive {
     display: none;
@@ -22,11 +30,21 @@
   .res-shoe-content img {
     margin-top: -37px !important;
   }
+  .lebron17 {
+    margin-top: 100px !important;
+  }
 }
 
 @media (max-width: 990px) {
   .feat-two {
     margin-top: 30px;
+  }
+  .lebron17 {
+    margin-top: 10px !important;
+  }
+  .lj-two,
+  .lj-three {
+    margin-top: 30px !important;
   }
 }
 
@@ -314,20 +332,11 @@ footer {
   background-color: #465473 !important;
 }
 
-.featured {
-  margin: 50px;
-}
-
-.feat-header {
-  font-weight: 700;
-}
-
 .feat-one {
   border-radius: 8px;
   padding: 460px 0px 30px 34px;
-  background-position: center;
   text-transform: uppercase;
-  background: url("/img/feat-one.jpg");
+  background: url("/img/feat-one.jpg") no-repeat;
 }
 
 .feat-one h1 {
@@ -339,14 +348,83 @@ footer {
 .feat-two {
   border-radius: 8px;
   padding: 460px 0px 30px 34px;
-  background-position: center;
   text-transform: uppercase;
-  background: url("/img/feat-two.jpg");
+  background: url("/img/feat-two.jpg") no-repeat;
 }
 
 .feat-two h1 {
   color: #fff;
   font-size: 4em;
+  font-weight: 700;
+}
+
+.lebron17-img {
+  margin-top: 60px;
+}
+
+.lebron17 {
+  margin-top: 300px;
+}
+
+.lebron17 h3 {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.lebron17 h1 {
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.lj-one {
+  border-radius: 8px;
+  padding: 260px 0px 30px 34px;
+  background-position: center;
+  text-transform: uppercase;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#1b1b1b3b)), url("/img/lj-tank.png") no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #1b1b1b3b 100%), url("/img/lj-tank.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.lj-one h1 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.lj-two {
+  border-radius: 8px;
+  padding: 260px 0px 30px 34px;
+  background-position: center;
+  text-transform: uppercase;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#1b1b1b3b)), url("/img/lj-tshirt.png") no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #1b1b1b3b 100%), url("/img/lj-tshirt.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.lj-two h1 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.lj-three {
+  border-radius: 8px;
+  padding: 260px 0px 30px 34px;
+  background-position: center;
+  text-transform: uppercase;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#1b1b1b3b)), url("/img/lj-shorts.png") no-repeat;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #1b1b1b3b 100%), url("/img/lj-shorts.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.lj-three h1 {
+  color: #fff;
+  font-size: 1em;
   font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */

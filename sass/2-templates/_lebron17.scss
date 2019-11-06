@@ -1,0 +1,48 @@
+// ##########################
+// HEADER PROPERTIES
+// ##########################
+.lebron17-img {
+    margin-top: 60px;
+}
+
+.lebron17 {
+    margin-top: 300px;
+
+    h3 {
+        font-size: 15px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    h1 {
+        font-size: 4em;
+        font-weight: 700;
+    }
+}
+
+// ##########################
+// FEATURED PROPERTIES
+// ##########################
+
+.lj-one {
+    @include featured-two;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #1b1b1b3b 100%),
+        url('/img/lj-tank.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.lj-two {
+    @include featured-two;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #1b1b1b3b 100%),
+        url('/img/lj-tshirt.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.lj-three {
+    @include featured-two;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #1b1b1b3b 100%),
+        url('/img/lj-shorts.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}

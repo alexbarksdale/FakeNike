@@ -187,20 +187,12 @@
 // ##########################
 // FEATURED PROPERTIES
 // ##########################
-.featured {
-    margin: 50px;
-}
-
-.feat-header {
-    font-weight: 700;
-}
-
 .feat-one {
     @include featured-items;
-    background: url('/img/feat-one.jpg');
+    background: url('/img/feat-one.jpg') no-repeat;
 }
 
 .feat-two {
     @include featured-items;
-    background: url('/img/feat-two.jpg');
+    background: url('/img/feat-two.jpg') no-repeat;
 }
