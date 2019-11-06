@@ -22,7 +22,6 @@
 // ##########################
 // FEATURED PROPERTIES
 // ##########################
-
 .lj-one {
     @include featured-two;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #1b1b1b3b 100%),
@@ -45,4 +44,11 @@
         url('/img/lj-shorts.png') no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+// ##########################
+// PICTURE PROPERTIES
+// ##########################
+.picture-showcase {
+    margin-top: 150px;
 }
