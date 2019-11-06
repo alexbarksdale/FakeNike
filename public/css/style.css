@@ -380,11 +380,11 @@ footer {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, black 100%), url("/img/newrelease.jpg") no-repeat;
   background-size: cover;
   background-position: center;
-  height: 800px;
+  height: 500px;
 }
 
 .release-content {
-  margin-top: 350px;
+  margin-top: 220px;
 }
 
 .release-content h1 {
@@ -422,6 +422,7 @@ footer {
   background-position: center;
   background-size: contain;
   height: 153px;
+  border-radius: 8px;
   margin-bottom: 15px;
 }
 
