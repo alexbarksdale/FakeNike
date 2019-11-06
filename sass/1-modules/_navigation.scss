@@ -1,12 +1,25 @@
 // ########################
 // NAVIGATION PROPERTIES
 // ########################
+.navbar-brand {
+    font-weight: 700;
+    color: $pure-black;
+
+    &:hover {
+        color: #5f5f5f;
+    }
+}
+
 .navbar-brand img {
     height: 40px;
 }
 
 .nav-link {
-    color: #000;
-    font-weight: 700;
+    color: $pure-black;
+    font-weight: 600;
     text-transform: uppercase;
+
+    &:hover {
+        color: #5f5f5f;
+    }
 }

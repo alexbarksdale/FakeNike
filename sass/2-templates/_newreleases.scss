@@ -1,0 +1,59 @@
+// ########################
+// HEADER PROPERTIES
+// ########################
+.new-release {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%),
+        url('/img/newrelease.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.release-content {
+    margin-top: 350px;
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 3em;
+        font-weight: 700;
+        color: $pure-white;
+    }
+}
+
+.new-shoes {
+    margin-top: 30px;
+}
+
+.new-content {
+    span {
+        float: right;
+    }
+
+    p {
+        color: #a0a0a0;
+    }
+
+    a {
+        color: $pure-black;
+        text-decoration: none;
+
+        &:hover {
+            color: $pure-black;
+            opacity: 0.7;
+            text-decoration: none;
+        }
+    }
+}
+
+.shoe-preview {
+    background: url('/img/newshoe.png') no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 153px;
+
+    margin-bottom: 15px;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}

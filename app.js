@@ -10,6 +10,10 @@ app.get('/', function(req, res) {
     res.render('pages/home.ejs');
 });
 
+app.get('/newreleases', function(req, res) {
+    res.render('pages/newrelease.ejs');
+});
+
 app.get('/lebron', function(req, res) {
     res.render('pages/lebron.ejs');
 });

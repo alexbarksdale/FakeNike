@@ -46,6 +46,10 @@
   .lj-three {
     margin-top: 30px !important;
   }
+  .shoe-preview {
+    height: 319px !important;
+    background-size: cover !important;
+  }
 }
 
 @media (max-width: 894px) {
@@ -67,14 +71,27 @@ footer {
   padding: 50px;
 }
 
+.navbar-brand {
+  font-weight: 700;
+  color: #000;
+}
+
+.navbar-brand:hover {
+  color: #5f5f5f;
+}
+
 .navbar-brand img {
   height: 40px;
 }
 
 .nav-link {
   color: #000;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
+}
+
+.nav-link:hover {
+  color: #5f5f5f;
 }
 
 .responsive-picks {
@@ -356,6 +373,60 @@ footer {
   color: #fff;
   font-size: 4em;
   font-weight: 700;
+}
+
+.new-release {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0)), to(black)), url("/img/newrelease.jpg") no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, black 100%), url("/img/newrelease.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+.release-content {
+  margin-top: 350px;
+}
+
+.release-content h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 700;
+  color: #fff;
+}
+
+.new-shoes {
+  margin-top: 30px;
+}
+
+.new-content span {
+  float: right;
+}
+
+.new-content p {
+  color: #a0a0a0;
+}
+
+.new-content a {
+  color: #000;
+  text-decoration: none;
+}
+
+.new-content a:hover {
+  color: #000;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.shoe-preview {
+  background: url("/img/newshoe.png") no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 153px;
+  margin-bottom: 15px;
+}
+
+.shoe-preview:hover {
+  opacity: 0.7;
 }
 
 .lebron17-img {
