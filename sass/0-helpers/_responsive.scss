@@ -1,3 +1,17 @@
+@media (max-width: 1210px) {
+    .non-responsive {
+        display: none;
+    }
+    .responsive-picks {
+        display: block !important;
+    }
+    .res-shoe-title {
+        img {
+            margin-top: -37px !important;
+        }
+    }
+}
+
 @media (max-width: 892px) {
     .header-content p {
         width: 70% !important;
