@@ -11,3 +11,16 @@
     letter-spacing: 1px;
     text-transform: uppercase;
 }
+
+@mixin featured-items {
+    border-radius: 8px;
+    padding: 460px 0px 30px 34px;
+    background-position: center;
+    text-transform: uppercase;
+
+    h1 {
+        color: $pure-white;
+        font-size: 4em;
+        font-weight: 700;
+    }
+}

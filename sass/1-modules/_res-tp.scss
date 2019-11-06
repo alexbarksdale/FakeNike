@@ -25,22 +25,16 @@
     background: linear-gradient(90deg, #fdbb2d 0%, #693db9 100%);
 }
 
-.shoe-content {
+.res-shoe-content {
     border-radius: 8px;
     margin-top: 44px;
     box-shadow: 0px 0px 46px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px 20px 105px 20px;
 
     button {
         float: right;
     }
 
-    &:hover {
-        margin-top: 15px;
-    }
-}
-
-.res-shoe-title {
-    padding: 20px 20px 105px 20px;
     h4 {
         font-size: 15px;
         @include shoe-card-text;
@@ -57,7 +51,10 @@
     }
 
     img {
-        // height: 207px;
         margin-top: -87px;
+    }
+
+    &:hover {
+        margin-top: 15px;
     }
 }

@@ -19,12 +19,18 @@
   .responsive-picks {
     display: block !important;
   }
-  .res-shoe-title img {
+  .res-shoe-content img {
     margin-top: -37px !important;
   }
 }
 
-@media (max-width: 892px) {
+@media (max-width: 990px) {
+  .feat-two {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 894px) {
   .header-content p {
     width: 70% !important;
   }
@@ -32,6 +38,15 @@
   .header-extras-right {
     display: none;
   }
+  .top-picks {
+    margin-top: 100px !important;
+  }
+}
+
+footer {
+  font-weight: 700;
+  margin-top: 100px;
+  padding: 50px;
 }
 
 .navbar-brand img {
@@ -71,51 +86,44 @@
   background: linear-gradient(90deg, #fdbb2d 0%, #693db9 100%);
 }
 
-.shoe-content {
+.res-shoe-content {
   border-radius: 8px;
   margin-top: 44px;
   -webkit-box-shadow: 0px 0px 46px 8px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 0px 46px 8px rgba(0, 0, 0, 0.3);
-}
-
-.shoe-content button {
-  float: right;
-}
-
-.shoe-content:hover {
-  margin-top: 15px;
-}
-
-.res-shoe-title {
   padding: 20px 20px 105px 20px;
 }
 
-.res-shoe-title h4 {
+.res-shoe-content button {
+  float: right;
+}
+
+.res-shoe-content h4 {
   font-size: 15px;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.res-shoe-title h2 {
+.res-shoe-content h2 {
   font-size: 25px;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.res-shoe-title h3 {
+.res-shoe-content h3 {
   font-size: 20px;
   font-weight: 400;
   color: #e8e8e8;
 }
 
-.res-shoe-title img {
+.res-shoe-content img {
   margin-top: -87px;
 }
 
-header {
-  height: 1000px;
+.res-shoe-content:hover {
+  margin-top: 15px;
 }
 
 .header-content img {
@@ -175,6 +183,7 @@ header {
   background: url("/img/our-picks.png");
   padding: 50px;
   min-height: 550px;
+  margin-top: 600px;
 }
 
 .category-txt {
@@ -227,37 +236,34 @@ header {
   border-radius: 8px;
   -webkit-box-shadow: 0px 0px 46px 8px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 0px 46px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px 20px 105px 20px;
 }
 
 .shoe-content button {
   float: right;
 }
 
-.shoe-title {
-  padding: 20px 20px 105px 20px;
-}
-
-.shoe-title h4 {
+.shoe-content h4 {
   font-size: 15px;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.shoe-title h2 {
+.shoe-content h2 {
   font-size: 25px;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-.shoe-title h3 {
+.shoe-content h3 {
   font-size: 20px;
   font-weight: 400;
   color: #e8e8e8;
 }
 
-.shoe-title img {
+.shoe-content img {
   height: 207px;
   margin-top: -87px;
 }
@@ -286,8 +292,13 @@ header {
 }
 
 .race-content h1 {
+  color: #ffacbb;
   font-size: 4em;
   font-weight: 700;
+}
+
+.race-content p {
+  color: #505050;
 }
 
 .btn-buy-now {
@@ -304,6 +315,38 @@ header {
 }
 
 .featured {
-  margin-top: 50px;
+  margin: 50px;
+}
+
+.feat-header {
+  font-weight: 700;
+}
+
+.feat-one {
+  border-radius: 8px;
+  padding: 460px 0px 30px 34px;
+  background-position: center;
+  text-transform: uppercase;
+  background: url("/img/feat-one.jpg");
+}
+
+.feat-one h1 {
+  color: #fff;
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.feat-two {
+  border-radius: 8px;
+  padding: 460px 0px 30px 34px;
+  background-position: center;
+  text-transform: uppercase;
+  background: url("/img/feat-two.jpg");
+}
+
+.feat-two h1 {
+  color: #fff;
+  font-size: 4em;
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */

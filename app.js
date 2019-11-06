@@ -10,6 +10,10 @@ app.get('/', function(req, res) {
     res.render('pages/home.ejs');
 });
 
+app.get('/offwhite', function(req, res) {
+    res.render('pages/offwhite.ejs');
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, function() {
     console.log(`Capstone running on port: http://localhost:${PORT}`);

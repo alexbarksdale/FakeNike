@@ -1,18 +1,28 @@
 @media (max-width: 1210px) {
+    // Non-res
     .non-responsive {
         display: none;
     }
+    // Responsive
     .responsive-picks {
         display: block !important;
     }
-    .res-shoe-title {
+    .res-shoe-content {
         img {
             margin-top: -37px !important;
         }
     }
 }
 
-@media (max-width: 892px) {
+@media (max-width: 990px) {
+    // Featured
+    .feat-two {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 894px) {
+    // Header
     .header-content p {
         width: 70% !important;
     }
@@ -20,5 +30,10 @@
     .header-extras-left,
     .header-extras-right {
         display: none;
+    }
+
+    // Top Picks
+    .top-picks {
+        margin-top: 100px !important;
     }
 }
